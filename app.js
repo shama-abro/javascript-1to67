@@ -1535,18 +1535,361 @@
 
 //task#9
 
-var salary(){
-    var hour=40
-    var rate=12.00
-    if(hour>40)
-    {
-        regpay = (rate*40)
-        overtimepay((rate*1.5)*(hour-40))
+// var salary(){
+//     var hour=40
+//     var rate=12.00
+//     if(hour>40)
+//     {
+//         regpay = (rate*40)
+//         overtimepay((rate*1.5)*(hour-40))
 
-        pay= ( regpay + overtimepay)
-    return("you earned overtime"+hour+"hour !"+"your pay is"+pay)
-    }
-    else{
-                                                                                                                s
-    }
-}
+//         pay= ( regpay + overtimepay)
+//     return("you earned overtime"+hour+"hour !"+"your pay is"+pay)
+//     }
+//     else{
+//                                                                                                                 s
+//     }
+// }
+/////// Chapter no 49 to 52//////////
+
+
+// Task no 1
+
+// document.write("<h1 style = text-align:center;>Singnup Please</h1>")
+// var f = document.createElement("form");
+// f.style.textAlign = "center";
+
+
+// var i = document.createElement("input");
+// i.type = "text";
+// i.name = "user_name";
+// i.id = "user_name1";
+// i.placeholder = "Enter your user name";
+// i.style.border = "1px solid black";
+// i.style.width = "170px"
+// i.style.height = "20px"
+// i.maxLength = "30";
+// var space = document.createElement("br");
+// var space2 = document.createElement("br");
+
+// var i2 = document.createElement("input");
+// i2.type = "text";
+// i2.name = "email_address";
+// i2.id = "email";
+// i2.placeholder = "Enter your email address";
+// i2.style.border = "1px solid black";
+// i2.style.width = "170px"
+// i2.style.height = "20px"
+// i2.maxLength = "30";
+// var space3 = document.createElement("br");
+// var space4 = document.createElement("br");
+
+// var i3 = document.createElement("input");
+// i3.type = "password";
+// i3.name = "password";
+// i3.id = "password";
+// i3.placeholder = "Enter your Password";
+// i3.style.border = "1px solid black";
+// i3.style.width = "170px"
+// i3.style.height = "20px"
+// i3.maxLength = "30";
+// var space6 = document.createElement("br");
+// var space7 = document.createElement("br");
+
+
+// var textbox = document.createElement("textarea");
+// textbox.name = "comment";
+// textbox.placeholder = "Write some comment"
+// textbox.style.border = "1px solid black";
+// textbox.maxLength = "50"; 
+// var space5 = document.createElement("br")
+
+
+
+// var s = document.createElement("input");
+// s.type = "submit";
+// s.value = "Submit";
+// s.addEventListener("click",function data1() {
+//     document.write(" Your user name : " + i.value +"<br>" + " Your email address : " + i2.value + "<br>")
+//     document.write("Your Password  : " + i3.value + "<br>")
+//     document.write("Your comments : " + textbox.value )
+// })
+
+// f.appendChild(i);
+// f.appendChild(space);
+// f.appendChild(space2);
+// f.appendChild(i2);
+// f.appendChild(space3);
+// f.appendChild(space4);
+// f.appendChild(i3);
+// f.appendChild(space6);
+// f.appendChild(space7);
+// f.appendChild(textbox);
+// f.appendChild(space5);                          
+// f.appendChild(s);
+
+// document.getElementsByTagName('body')[0].appendChild(f);
+
+// Task no 2
+
+// function moreLoris(){
+//     var moreParagraph = "Slow lorises are a group of several species of strepsirrhine primates which make up the genusNycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive colorationpatterns that are species-dependent. The hands and feet of slow lorises have several adaptationsthat give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow    lorises have a toxic bite, a rare trait among mammals"
+//     document.getElementById("slowloris").innerHTML = moreParagraph;
+// }
+
+// document.write("<h1>Slow Loris</h1> " + "<br>" + "<p id='slowloris'>Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus."+"<button><a href='javascript:void(0);'onClick='moreLoris()' style='text-decoration: none;' >Read More</a></button></p>") 
+
+// Task no 3
+
+// createEditButton: function() {
+//     let editButton = document.createElement('a');
+//     editButton.href = "#";
+//     editButton.textContent = "edit";
+//     editButton.className = 'edit';
+//     return editButton;
+//   }
+
+
+
+
+
+
+// document.write("<h1 style = text-align:center;>Students Registration Page</h1>" + "<br>" + "<br>")
+// var f = document.createElement("form");
+// // f.style.textAlign = "center";
+// f.style.border = "1px solid black";
+// f.style.width = "500px";
+// f.style.margin = "0 auto";
+// f.style.height = "400px";
+// f.style.textAlign = "center";
+// f.style.backgroundColor = "#fff"
+
+
+// var para = document.createTextNode("If you want to become a student of our faculty complete form given below");
+// var uNam = document.createTextNode("Username  : ");
+// var fNam = document.createTextNode("First Name : ");
+// var lNam = document.createTextNode("Last Name : ");
+// var eMail = document.createTextNode("E-mail : ");   
+// var pass = document.createTextNode("Password : ");
+// var pInfo = document.createTextNode("Personal Information");
+// var span = document.createElement("span");
+// span.style.fontSize = "20px";
+// span.appendChild(pInfo);
+
+
+// var space15 = document.createElement("br");
+// var space14 = document.createElement("br");
+// var space12 = document.createElement("br");
+// var space13 = document.createElement("br");
+// var space16 = document.createElement("br");
+
+// var i = document.createElement("input");
+// i.type = "text";
+// i.name = "user_name";
+// i.id = "user_name1";
+// i.placeholder = "Enter your user name";
+// i.style.border = "1px solid black";
+// i.style.width = "270px";
+// i.style.height = "20px";
+
+// i.maxLength = "30";
+// var space = document.createElement("br");
+// var space2 = document.createElement("br");
+
+
+// var i4 = document.createElement("input");
+// i4.type = "text";
+// i4.name = "first_name";
+// i4.id = "first_name1";
+// i4.placeholder = "Enter your first name";
+// i4.style.border = "1px solid black";
+// i4.style.width = "270px"
+// i4.style.height = "20px"
+// i4.maxLength = "30";
+// var space8 = document.createElement("br");
+// var space9 = document.createElement("br");
+
+// var i5 = document.createElement("input");
+// i5.type = "text";
+// i5.name = "last_name";
+// i5.id = "last_name1";
+// i5.placeholder = "Enter your last name";
+// i5.style.border = "1px solid black";
+// i5.style.width = "270px"
+// i5.style.height = "20px"
+// i5.maxLength = "30";
+// var space10 = document.createElement("br");
+// var space11 = document.createElement("br");
+
+
+// var i2 = document.createElement("input");
+// i2.type = "text";
+// i2.name = "email_address";
+// i2.id = "email";
+// i2.placeholder = "Enter your email address";
+// i2.style.border = "1px solid black";
+// i2.style.width = "270px"
+// i2.style.height = "20px"
+// i2.maxLength = "30";
+// var space3 = document.createElement("br");
+// var space4 = document.createElement("br");
+
+// var i3 = document.createElement("input");
+// i3.type = "password";
+// i3.name = "password";
+// i3.id = "password";
+// i3.placeholder = "Enter your Password";
+// i3.style.border = "1px solid black";
+// i3.style.width = "270px"
+// i3.style.height = "20px"
+// i3.maxLength = "30";
+// var space6 = document.createElement("br");
+// var space7 = document.createElement("br");
+
+
+// var iVal = document.createTextNode(i.value)
+// var sub = document.createTextNode("Submit");
+// var s = document.createElement("button");
+// s.type = "button";
+// s.value = "Submit";
+// s.appendChild(sub)
+
+// s.setAttribute("onclick","addTable()");
+
+// var body = document.getElementById("body");
+// let header = false;
+// function addTable(){
+   
+
+//     var tab =  document.createElement("table");
+//     var tr1 =  document.createElement("tr")
+//     var th1 =  document.createElement("th")
+//     var th2 =  document.createElement("th")
+//     var th3 =  document.createElement("th")
+//     var th4 =  document.createElement("th")
+//     var th5 =  document.createElement("th")
+//     if(!header){
+//         th1.appendChild(uNam);
+//         th2.appendChild(fNam);
+//         th3.appendChild(lNam);
+//         th4.appendChild(eMail);
+//         th5.appendChild(pass);
+//         header = true;
+//     }
+
+//     var tr2 =  document.createElement("tr")
+//     var td1 =  document.createElement("td")
+//     var td2 =  document.createElement("td")
+//     var td3 =  document.createElement("td")
+//     var td4 =  document.createElement("td")
+//     var td5 =  document.createElement("td")
+//     tr1.appendChild(th1);
+//     tr1.appendChild(th1);
+//     tr1.appendChild(th2);
+//     tr1.appendChild(th3);
+//     tr1.appendChild(th4);
+//     tr1.appendChild(th5);
+//     tr2.appendChild(td1).textContent = i.value;
+//     tr2.appendChild(td2).textContent = i4.value;
+//     tr2.appendChild(td3).textContent = i5.value;
+//     tr2.appendChild(td4).textContent = i2.value;
+//     tr2.appendChild(td5).textContent = i3.value;
+//     tab.appendChild(tr1)
+//     tab.appendChild(tr2)
+//     i.value = "";
+//    i4.value = "";
+//    i5.value = "";
+//    i2.value = "";
+//    i3.value = "";
+//     body.appendChild(tab)
+
+// }
+
+// f.appendChild(para);
+// f.appendChild(space14);
+// f.appendChild(space15);
+// f.appendChild(space16);
+// f.appendChild(span);
+// f.appendChild(space12);
+// f.appendChild(space13);
+// f.appendChild(uNam);
+// f.appendChild(i);
+// f.appendChild(space);
+// f.appendChild(space2);
+// f.appendChild(fNam);
+// f.appendChild(i4);
+// f.appendChild(space8);
+// f.appendChild(space9);
+// f.appendChild(lNam);
+// f.appendChild(i5);
+// f.appendChild(space10);
+// f.appendChild(space11);
+// f.appendChild(eMail);
+// f.appendChild(i2);
+// f.appendChild(space3);
+// f.appendChild(space4);
+// f.appendChild(pass);
+// f.appendChild(i3);
+// f.appendChild(space6);
+// f.appendChild(space7);                          
+// f.appendChild(s);
+
+// document.getElementsByTagName('body')[0].appendChild(f);
+
+// document.getElementsByTagName('body')[0].style.backgroundColor = "rgb(238,243,250)";
+
+
+  
+
+
+// Chapter no 53 to 58
+
+
+// Task no 1
+
+// function showModal(e) {
+//     var modal = document.getElementById("modalImage")
+//     modal.src = e.src;    
+// }
+// Task no 2 
+
+// var para = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum ipsa quae quod officia sapiente aut velit tempora, nobis esse?"
+
+// var para2 = document.createElement("p");
+// para2.innerHTML = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum ipsa quae quod officia sapiente aut velit tempora, nobis esse?"
+// var currTextSize = 20; 
+// para2.style.fontSize  = currTextSize + 'px';
+
+// var z1T = document.createTextNode("zoomin");
+// var z2T = document.createTextNode("zoomout");
+// var z1 = document.createElement("button"); 
+
+// z1.appendChild(z1T);
+// z1.style.fontSize = "12px";
+// z1.onclick = function big(){
+//     ++currTextSize;
+//     para2.style.fontSize = currTextSize + 'px';
+// }
+
+
+// var z2 = document.createElement("button");
+// z2.appendChild(z2T);
+// z2.style.fontSize = "12px";
+// z2.onclick = function big(){
+//     --currTextSize;
+//     para2.style.fontSize = currTextSize + 'px';
+// }
+
+// document.getElementsByTagName("body")[0].appendChild(para2);
+// document.getElementsByTagName("body")[0].appendChild(z1);
+// document.getElementsByTagName("body")[0].appendChild(z2);
+
+
+/////// Chapter no  58 to 67 ///////////
+
+
+ // task no 1  (i)
+
+//var nCon = document.getElementsByTagName("p");
+
+//var p = document.getElementById("main-content")
